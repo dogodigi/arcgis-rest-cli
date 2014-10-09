@@ -1,0 +1,16 @@
+{
+    "name"        : "arcgisminer",
+    "version"     : "0.0.1",
+    "description" : "miner for arcgis server using tor proxy",
+    "author"      : "dogodigi",
+    "homepage"    : "http://www.dogodigi.net",
+    "keywords"    : [
+        "arcgis",
+        "miner"
+    ],
+    "dependencies": {
+        "socks5-client": "*",
+        "socks5-http-client": "*",
+        "terraformer-arcgis-parser":"*"
+    }
+}

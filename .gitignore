@@ -1,0 +1,6 @@
+/data/
+/config/*
+!/config/config.sample.js
+/node_modules/
+/nbproject/
+*.qgs
