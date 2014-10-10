@@ -14,7 +14,7 @@
     "os": ["!win32", "!win64", "linux"],
     "bugs": {
         "url": "http://github.com/dogodigi/arcgis-rest-cli/issues",
-        "email": "arcgis-rest-cli@dogodigi.net"
+        "email": "github@dogodigi.net"
     },
     "dependencies": {
         "socks5-client": "*",
