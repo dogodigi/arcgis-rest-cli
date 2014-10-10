@@ -1,16 +1,24 @@
 {
-    "name"        : "arcgisminer",
-    "version"     : "0.0.1",
-    "description" : "miner for arcgis server using tor proxy",
-    "author"      : "dogodigi",
-    "homepage"    : "http://www.dogodigi.net",
-    "keywords"    : [
+    "name": "arcgis-rest-cli",
+    "version": "0.0.1",
+    "description": "cli for arcgis server rest interface",
+    "author": "Milo van der Linden <milo@dogodigi.net>",
+    "homepage": "http://www.dogodigi.net",
+    "license": "GPLv3",
+    "private": true,
+    "keywords": [
         "arcgis",
-        "miner"
+        "rest",
+        "cli"
     ],
+    "os": ["!win32", "!win64", "linux"],
+    "bugs": {
+        "url": "http://github.com/dogodigi/arcgis-rest-cli/issues",
+        "email": "arcgis-rest-cli@dogodigi.net"
+    },
     "dependencies": {
         "socks5-client": "*",
         "socks5-http-client": "*",
-        "terraformer-arcgis-parser":"*"
+        "terraformer-arcgis-parser": "*"
     }
 }
