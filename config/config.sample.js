@@ -12,7 +12,7 @@ module.exports = {
     useRootServices: true,
     outputdir: 'data/arcgisonline',
     useTor: true, // You can use a Tor proxy running on localhost if you want to.
-    useLayerList: true, //Do you want to use a layers list to limit the datasets parsed?
+    useLayerList: false, //Do you want to use a layers list to limit the datasets parsed?
     useServicesList: true, //Do you want to use a serviceslist to servicesthat are being checked?
     useFolderList: false, //Do you want to use a serviceslist to servicesthat are being checked?
     folderList: ['Demographics'],
