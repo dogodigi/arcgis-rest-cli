@@ -11,6 +11,10 @@
         "rest",
         "cli"
     ],
+    "scripts": {
+        "test": "nodeunit",
+        "start": "node arcgis-rest.js"
+    },
     "os": ["!win32", "!win64", "linux"],
     "bugs": {
         "url": "http://github.com/dogodigi/arcgis-rest-cli/issues",
