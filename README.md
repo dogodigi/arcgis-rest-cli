@@ -13,4 +13,4 @@ To test your own server; copy config.sample.js from the config directory, change
 npm start <yourConfigHere>
 ```
 
-Requires ogr2ogr if you want to test by storing shape files.
+Requires ogr2ogr if you want to test wtih downloading shape files.
